@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Busy Day</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5;
+            margin: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .important-task {
+            font-weight: bold;
+            color: #ff4500;
+        }
+
+        #lunch {
+            background-color: #87CEEB;
+        }
+
+        .break-time {
+            background-color: #f0f8ff;
+        }
+
+        .completed-task {
+            text-decoration: line-through;
+            color: #808080;
+        }
+
+        #coding {
+            background-color: #90EE90;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>My Busy Day Schedule</h1>
+
+    <table>
+        <tr>
+            <th>Time</th>
+            <th>Event</th>
+        </tr>
+        <tr>
+            <td>08:00 AM</td>
+            <td class="important-task">Morning Workout</td>
+        </tr>
+        <tr>
+            <td>09:30 AM</td>
+            <td>Breakfast</td>
+        </tr>
+        <tr id="coding">
+            <td>10:00 AM</td>
+            <td>Coding Session</td>
+        </tr>
+        <tr class="break-time">
+            <td>12:30 PM</td>
+            <td>Lunch Break</td>
+        </tr>
+        <tr>
+            <td>02:00 PM</td>
+            <td>Meeting with Team</td>
+        </tr>
+        <tr class="completed-task">
+            <td>04:00 PM</td>
+            <td>Completed Task A</td>
+        </tr>
+        <tr>
+            <td>05:30 PM</td>
+            <td>Errands and Shopping</td>
+        </tr>
+        <tr>
+            <td>07:00 PM</td>
+            <td>Dinner</td>
+        </tr>
+    </table>
+
+</body>
+</html>
